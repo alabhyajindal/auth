@@ -1,11 +1,11 @@
-import Head from 'next/head';
+import Head from 'next/head'
 
 export default function Home() {
   return (
     <div>
       <Head>
         <title>Hello</title>
-        <meta name='description' content='Hello World' />
+        <meta name="description" content="Hello World" />
       </Head>
       <h1>Hello World</h1>
       <style jsx>{`
@@ -16,5 +16,5 @@ export default function Home() {
         }
       `}</style>
     </div>
-  );
+  )
 }
