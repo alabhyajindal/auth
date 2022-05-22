@@ -18,7 +18,8 @@ export default function SignIn() {
   if (submitted) {
     return (
       <div>
-        <h2>Please check your email for the Sign In link</h2>
+        <h2>Please check your email for the Sign In link.</h2>
+        <p>You can close this tab.</p>
       </div>
     )
   }
